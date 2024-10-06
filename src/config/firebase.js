@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyDJhmRyQhKsD_NLXmdEgD9b3MuXT1fYZVA",
+  authDomain: "cultech-439cf.firebaseapp.com",
+  projectId: "cultech-439cf",
+  storageBucket: "cultech-439cf.appspot.com",
+  messagingSenderId: "146030339596",
+  appId: "1:146030339596:web:51c8ac134e9265d71b3029",
+  //measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);

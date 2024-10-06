@@ -56,7 +56,7 @@ export const UseSignInWithGoogle = () => {
     try {
       await signInWithPopup(auth, googleProvider);
     } catch (err) {
-      alert("Something is wrong with your Google Account");
+      alert(err);
     }
   };
   return signInWithGoogle;
